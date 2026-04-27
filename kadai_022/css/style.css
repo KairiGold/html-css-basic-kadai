@@ -67,10 +67,10 @@ footer {
 
   a {
     color: rgb(255, 255, 255);
-    :visited {
+    &:visited {
       color: rgb(193, 234, 251);
     }
-    :hover {
+    &:hover {
       color: rgb(245, 178, 168);
     }
   }
