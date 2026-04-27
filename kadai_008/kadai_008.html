@@ -16,6 +16,7 @@
         <a href="https://www.sejuku.net/">テクノロジー</a>
       </nav>
     </header>
+
     <main>
       <article>
         <h2>社会</h2>
@@ -32,6 +33,7 @@
             <label for="nameForm">
               氏名 <input type="text" placeholder="名前を入力してください" />
             </label>
+            <br />
             <label for="ageRange">
               年代
               <select>
@@ -41,24 +43,34 @@
                 <option>40代以上</option>
               </select>
             </label>
-            <label for="radioButton">
-              <label>男性<input type="radio" name="gender" /></label>
-              <label>女性<input type="radio" name="gender" /></label>
-              <label>その他<input type="radio" name="gender" /></label>
-            </label>
+            <br />
+            <label for="radioButton"></label>
+            <label
+              >男性<input type="radio" name="gender" id="radioButton"
+            /></label>
+            <label
+              >女性<input type="radio" name="gender" id="radioButton"
+            /></label>
+            <label
+              >その他<input type="radio" name="gender" id="radioButton"
+            /></label>
+            <br />
             <label for="reccomendForm">
               おすすめ和菓子の名称<input
                 type="text"
                 placeholder="例：みたらし団子"
               />
             </label>
+            <br />
             <label for="reccomendReason"
               >おすすめする理由<textarea></textarea>
             </label>
+            <br />
             個人情報保護方針に同意する<input type="checkbox" />
             <label for="submit"
               ><input type="submit" /> <input type="reset"
             /></label>
+            <br />
           </form>
         </section>
       </article>
