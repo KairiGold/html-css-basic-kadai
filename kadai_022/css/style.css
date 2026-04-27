@@ -1,0 +1,97 @@
+/* Step 3: 余白のクリアとフォントサイズの設定 */
+body,
+h1,
+p {
+  margin: 0;
+}
+
+p,
+a {
+  font-size: 20px;
+}
+
+/* Step 4: header部分のスタイル */
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+}
+
+/* Step 5: main部分のスタイル */
+main {
+  padding: 10px;
+
+  #parent {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contents {
+    border: 3px solid rgb(238, 204, 204);
+    flex-basis: 25%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+
+    /* 指定はありませんでしたが、コンテンツ内に画像が入りきらないのでいれました。 */
+    img {
+      max-width: 70%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 25px;
+      border-bottom: 3px dotted rgb(236, 122, 122);
+
+      &::before {
+        content: "●";
+        color: rgb(239, 111, 139);
+        margin-right: 5px;
+      }
+    }
+
+    p:nth-of-type(2)::first-letter {
+      font-weight: bold;
+      color: rgb(97, 206, 249);
+    }
+  }
+}
+/* Step6. フッター部分のスタイル */
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+
+  a {
+    color: rgb(255, 255, 255);
+    :visited {
+      color: rgb(193, 234, 251);
+    }
+    :hover {
+      color: rgb(245, 178, 168);
+    }
+  }
+}
+
+/* Step.7 レスポンシブ対応のスタイル */
+@media (max-width: 768px) {
+  main {
+    #parent {
+      flex-direction: column;
+    }
+
+    .contents {
+      flex-basis: auto;
+    }
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+}
