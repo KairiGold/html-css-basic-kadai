@@ -1,6 +1,6 @@
-const today = Date.now();
-const year = today.getFullyear();
-const month = today.getmonth();
-const date = today.getdate();
+const today = new Date();
+const year = today.getFullYear();
+const month = today.getMonth() + 1;
+const date = today.getDate();
 
-console(year + "年" + month + "月" + date + "日");
+console.log(year + "年" + month + "月" + date + "日");
