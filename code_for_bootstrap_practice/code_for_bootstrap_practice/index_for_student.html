@@ -17,6 +17,78 @@
 
   <body>
     <main>
+      <!-- ナビゲーションメニュー開始 -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand my_navbar_brand">
+            <img
+              class="img-fluid navbar_brand_logo"
+              src="img/site_logo.png"
+              alt="サイトアイコン"
+            /><span>SAMURAI KITCHEN</span>
+          </a>
+          <div
+            class="navbar-toggler hamburger_menu"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            　aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <input type="checkbox" id="hamburger_btn_check" />
+            <label for="hamburger_btn_check" class="hamburger_btn">
+              <img
+                class="btn_open"
+                src="img/button_open.png"
+                alt="ナビゲーションメニューのボタン"
+              />
+              <img
+                class="btn_close"
+                src="img/button_close.png"
+                alt="ナビゲーションメニューのボタン"
+              />
+            </label>
+          </div>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item px-2">
+                <a
+                  class="nav-link my_nav_link my-2"
+                  aria-current="page"
+                  href="#"
+                  >HOME</a
+                >
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link my_nav_link my-2" href="#about">ABOUT US</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link my_nav_link my-2" href="#gallery">GALLERY</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link my_nav_link my-2" href="#menu">MENU</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link my_nav_link my-2" href="#review"
+                  >CUSTOMER REVIEWS</a
+                >
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link my_nav_link my-2" href="#access">ACCESS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ナビゲーションメニュー終了 -->
       <div
         id="myCarousel"
         class="carousel slide carousel-fade"
