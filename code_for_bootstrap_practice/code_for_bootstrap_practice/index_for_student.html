@@ -17,78 +17,6 @@
 
   <body>
     <main>
-      <!-- ナビゲーションメニュー開始 -->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand my_navbar_brand">
-            <img
-              class="img-fluid navbar_brand_logo"
-              src="img/site_logo.png"
-              alt="サイトアイコン"
-            /><span>SAMURAI KITCHEN</span>
-          </a>
-          <div
-            class="navbar-toggler hamburger_menu"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            　aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <input type="checkbox" id="hamburger_btn_check" />
-            <label for="hamburger_btn_check" class="hamburger_btn">
-              <img
-                class="btn_open"
-                src="img/button_open.png"
-                alt="ナビゲーションメニューのボタン"
-              />
-              <img
-                class="btn_close"
-                src="img/button_close.png"
-                alt="ナビゲーションメニューのボタン"
-              />
-            </label>
-          </div>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item px-2">
-                <a
-                  class="nav-link my_nav_link my-2"
-                  aria-current="page"
-                  href="#"
-                  >HOME</a
-                >
-              </li>
-
-              <li class="nav-item px-2">
-                <a class="nav-link my_nav_link my-2" href="#about">ABOUT US</a>
-              </li>
-
-              <li class="nav-item px-2">
-                <a class="nav-link my_nav_link my-2" href="#gallery">GALLERY</a>
-              </li>
-
-              <li class="nav-item px-2">
-                <a class="nav-link my_nav_link my-2" href="#menu">MENU</a>
-              </li>
-
-              <li class="nav-item px-2">
-                <a class="nav-link my_nav_link my-2" href="#review"
-                  >CUSTOMER REVIEWS</a
-                >
-              </li>
-
-              <li class="nav-item px-2">
-                <a class="nav-link my_nav_link my-2" href="#access">ACCESS</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- ナビゲーションメニュー終了 -->
       <div
         id="myCarousel"
         class="carousel slide carousel-fade"
@@ -310,97 +238,70 @@
         </div>
 
         <hr class="featurette-divider" />
-
-        <div class="row featurette align-items-center">
-          <div class="col-md-7">
-            <h2 class="fs-1">First featurette heading.</h2>
-            <p class="fs-2 text-muted">It'll blow your mind.</p>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <div class="card shadow-sm">
-              <img
-                src="img/sushi.jpg"
-                class="card-img-top img-fluid"
-                alt="サンプル画像3"
-              />
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/sushi.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">First featurette heading.</h5>
+                <h6 class="card-subtitle text-muted">It'll blow your mind.</h6>
+                <p class="card-text">
+                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
+                  id ligula porta felis euismod semper. Praesent commodo cursus
+                  magna, vel scelerisque nisl consectetur.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette align-items-center">
-          <div class="col-md-7 order-md-2">
-            <h2 class="fs-1">Oh yeah, it's that good.</h2>
-            <p class="fs-2 text-muted">See for yourself.</p>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur.
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <div class="card shadow-sm">
-              <img
-                src="img/sushi.jpg"
-                class="card-img-top img-fluid"
-                alt="サンプル画像3"
-              />
+          <div class="col">
+            <div class="card">
+              <img src="img/sushi.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">First featurette heading.</h5>
+                <h6 class="card-subtitle text-muted">It'll blow your mind.</h6>
+                <p class="card-text">
+                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
+                  id ligula porta felis euismod semper. Praesent commodo cursus
+                  magna, vel scelerisque nisl consectetur.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette align-items-center">
-          <div class="col-md-7">
-            <h2 class="fs-1">And lastly, this one.</h2>
-            <p class="fs-2 text-muted">Checkmate.</p>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <div class="card shadow-sm">
-              <img
-                src="img/sushi.jpg"
-                class="card-img-top img-fluid"
-                alt="サンプル画像3"
-              />
+          <div class="col">
+            <div class="card">
+              <img src="img/sushi.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">First featurette heading.</h5>
+                <h6 class="card-subtitle text-muted">It'll blow your mind.</h6>
+                <p class="card-text">
+                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
+                  id ligula porta felis euismod semper. Praesent commodo cursus
+                  magna, vel scelerisque nisl consectetur.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <hr class="featurette-divider" />
-
-        <div class="row featurette align-items-center">
-          <div class="col-md-7 order-md-2">
-            <h2 class="fs-1">Fresh and delicious.</h2>
-            <p class="fs-2 text-muted">The best choice.</p>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur.
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <div class="card shadow-sm">
-              <img
-                src="img/sushi.jpg"
-                class="card-img-top img-fluid"
-                alt="サンプル画像3"
-              />
+          <div class="col">
+            <div class="card">
+              <img src="img/sushi.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">First featurette heading.</h5>
+                <h6 class="card-subtitle text-muted">It'll blow your mind.</h6>
+                <p class="card-text">
+                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
+                  id ligula porta felis euismod semper. Praesent commodo cursus
+                  magna, vel scelerisque nisl consectetur.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
+          <hr class="featurette-divider" />
         </div>
-        <hr class="featurette-divider" />
 
         <footer class="container">
           <p class="float-end"><a href="#">Back to top</a></p>

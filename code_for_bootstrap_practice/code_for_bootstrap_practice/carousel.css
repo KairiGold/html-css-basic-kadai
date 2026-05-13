@@ -39,8 +39,8 @@ body {
 
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 /* rtl:end:ignore */
@@ -55,7 +55,11 @@ body {
   font-weight: 300;
   line-height: 1;
   /* rtl:remove */
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
+}
+
+.card-flex {
+  display: flex;
 }
 
 /* ----------------------------------------------- レスポンシブデザイン */
