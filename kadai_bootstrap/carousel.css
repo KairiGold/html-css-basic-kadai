@@ -165,6 +165,24 @@
   left: 24px;
   bottom: 24px;
 }
+
+/* ----------------------------------------------- シェフ */
+.chef_bg {
+  background-color: #fdf5e6;
+}
+.section_title.chef::after {
+  content: "シェフ";
+}
+
+.chef-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#chef .section_title::after {
+  content: "シェフ";
+}
+
 /* ----------------------------------------------- アクセス */
 .access::after {
   content: "アクセス";
